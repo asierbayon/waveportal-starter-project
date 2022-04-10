@@ -165,7 +165,7 @@ export default function App() {
             </div>
 
             {!currentAccount ? (
-               <button className="connectWalletButton" onClick={connectWallet}>
+               <button className="button" onClick={connectWallet}>
                   Connect Wallet
                </button>
             ) : (
@@ -177,7 +177,7 @@ export default function App() {
                      rows="10"
                      onChange={handleChangeMessage}
                   />
-                  <button className="waveButton" disabled={message.length < 1} onClick={wave}>
+                  <button className="button" disabled={message.length < 1} onClick={wave}>
                      Wave at Me
                   </button>
                </div>
