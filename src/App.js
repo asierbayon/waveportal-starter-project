@@ -162,6 +162,11 @@ export default function App() {
                <span aria-label="emoji" role="img">
                   👋
                </span>
+               <br />
+               Every message has a 50% chance of winning some ETH!{" "}
+               <span aria-label="emoji" role="img">
+                  🤑
+               </span>
             </div>
 
             {!currentAccount ? (
